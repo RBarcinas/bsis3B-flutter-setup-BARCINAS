@@ -1,59 +1,31 @@
-# 🧠 Logic Quiz App (Flutter)
+Logic Quiz App (Flutter)
 
-A fun and interactive quiz app built with Flutter to test your logical thinking skills.
-The app features animated question transitions, a countdown timer, instant answer feedback, and a final score display.
+A business-focused logic quiz app built with Flutter. Users solve real-world problems faced by local businesses by choosing the most helpful mobile app feature. The app includes animated transitions, a countdown timer, instant feedback, and a final score screen.
 
-# ✨ Features
+Features
 
-# 🎬 Smooth Animations
+Slide and fade question animations
 
-# Slide and fade transitions between questions
+Animated color feedback for answers
 
-Animated answer button color changes for correct/incorrect answers
+15-second timer per question with auto-lock
 
-# ⏱ Timed Questions
+Progress bar
 
-15-second countdown for each question
+Score display and restart option
 
-Automatic answer lock when time runs out
+Bright, high-contrast UI
 
-# 📊 Progress Indicator
+App Structure
 
-Visual progress bar showing quiz completion
+Start View – “Start Quiz” button
+Quiz View – Personalized local business question, 4 choices, Next button after answering
+End View – Final score and Restart
 
-# 🎯 Instant Feedback
+Quiz Requirement
 
-Correct answer highlighted in green
+At least one question about a real business/service, including the business name, city/municipality, and a problem a mobile app can solve.
 
-Incorrect selection highlighted in red
+Built With
 
-# 🏁 End Screen
-
-Displays final score
-
-Option to restart the quiz
-
-# 🎨 Bright, Modern UI
-
-Gradient background
-
-High-contrast, readable option text
-
-# 🧩 App Structure
-
-Start View
-
-Welcome screen with “Start Quiz” button
-
-Quiz View
-
-Animated question card with timer, progress bar, and multiple-choice options
-End View
-Final score summary with restart button
-
-# ⚙️ Built With
-
-Flutter
-Dart
-AnimationController, SlideTransition, FadeTransition
-Timer for countdown logic
+Flutter, Dart, AnimationController, SlideTransition, FadeTransition, Timer
