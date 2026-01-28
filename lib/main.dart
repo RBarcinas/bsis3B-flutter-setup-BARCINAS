@@ -42,39 +42,62 @@ class _QuizScreenState extends State<QuizScreen>
   late Animation<double> fadeAnimation;
 
   final List<Map<String, dynamic>> questions = [
-    {
-      'q':
-          'If all bicycles have wheels and a mountain bike is a bicycle, what can we conclude?',
-      'a': [
-        'Mountain bikes have engines',
-        'Mountain bikes have wheels',
-        'All wheels are bicycles',
-        'Bicycles are mountains'
-      ],
-      'c': 1
-    },
-    {
-      'q': 'Which number comes next: 2, 4, 8, 16, ?',
-      'a': ['18', '24', '30', '32'],
-      'c': 3
-    },
-    {
-      'q': 'Rearrange the letters "CIFAIPC"',
-      'a': ['PACIFIC', 'OFFICIA', 'TRAFFIC', 'SPECIFIC'],
-      'c': 0
-    },
-    {
-      'q':
-          'A farmer has 17 sheep. All but 9 run away. How many sheep are left?',
-      'a': ['8', '9', '17', '0'],
-      'c': 1
-    },
-    {
-      'q': 'Which one is the odd one out?',
-      'a': ['Triangle', 'Square', 'Circle', 'Cube'],
-      'c': 3
-    },
-  ];
+  {
+    'q':
+        'Which mobile app feature would help "Luna’s Bake Shop" in Quezon City the most?',
+    'a': [
+      'Online cake pre-order form with pickup scheduling',
+      'Background music playlist controller',
+      'Weekly logo color changer',
+      'Customer selfie contest page'
+    ],
+    'c': 0
+  },
+  {
+    'q':
+        'A small sari-sari store often runs out of popular items without noticing. Which app feature would help most?',
+    'a': [
+      'Inventory stock alerts',
+      'Animated store wallpaper',
+      'Daily horoscope section',
+      'Store ringtone changer'
+    ],
+    'c': 0
+  },
+  {
+    'q':
+        'A local clinic experiences long patient waiting lines. What mobile feature would improve this situation?',
+    'a': [
+      'Online queue number system',
+      'Clinic theme music',
+      'Wallpaper customization',
+      'Doctor selfie gallery'
+    ],
+    'c': 0
+  },
+  {
+    'q':
+        'A motorcycle repair shop forgets customer service histories. What app feature is most useful?',
+    'a': [
+      'Customer repair history tracker',
+      'Shop logo animation',
+      'Color-changing background',
+      'Daily quote notifications'
+    ],
+    'c': 0
+  },
+  {
+    'q':
+        'A water refilling station receives many delivery requests through text, causing confusion. What feature would help?',
+    'a': [
+      'Delivery request booking system',
+      'Water-themed games',
+      'Animated splash screen',
+      'Background sound effects'
+    ],
+    'c': 0
+  },
+];
 
   @override
   void initState() {
@@ -317,3 +340,4 @@ class _QuizScreenState extends State<QuizScreen>
     );
   }
 }
+
